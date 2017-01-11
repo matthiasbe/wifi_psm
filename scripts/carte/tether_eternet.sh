@@ -8,3 +8,5 @@ sudo route add default gw $pc_ip_addr eth0
 
 #echo "nameserver $pc_ip_addr" >> /etc/resolvconf/resolv.conf.d/tail
 
+sudo resolvconf -u
+
